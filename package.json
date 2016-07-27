@@ -1,5 +1,5 @@
 {
-  "name": "interface.js.monitor",
+  "name": "interface.server.monitor",
   "version": "0.0.1",
   "description": "A front-end for monitoring client connections to interface.server",
   "main": "index.html",
