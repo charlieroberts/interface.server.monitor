@@ -55,6 +55,14 @@ let ClientsTable = React.createClass({
     clients.push( client )
     this.setState({ clients })
   },
+
+  removeClientWithID( id ) {
+    let clients = this.state.clients.slice( 0 ),
+        idx = clients.findIndex( client => client.id === id )
+
+    clients.splice( idx, 1 )
+    this.setState({ clients })
+  },
   
   monitorClient( row ) {
     let newState = !row.state.checked,

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { ClientsTable }  from './MyTable.jsx'
+import { ClientsTable }  from './clientsMonitor.jsx'
 import { SignalsTable }  from './SignalMonitor.jsx'
 
 let GUIClass = React.createClass({
