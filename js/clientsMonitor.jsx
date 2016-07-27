@@ -24,7 +24,7 @@ let ClientRow = React.createClass({
         <Td>{this.props.id}</Td>
         <Td>{this.props.ip}</Td>
         <Td>{this.props.interfaceName}</Td>
-        <Td aligned="right">
+        <Td aligned="center">
           <Checkbox checked={this.state.checked} onClick={ this.props.monitorHandler.bind( null, this ) } />
         </Td>
       </Tr>
